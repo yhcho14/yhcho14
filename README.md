@@ -1,4 +1,4 @@
-# Hi there, I'm yhcho14 👋
+# Hi there, I'm Yonghyun Cho 👋
 
 ## 👨‍💻 About Me
 - 🎓 I'm currently studying **Computer Science**.
