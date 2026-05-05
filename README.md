@@ -3,7 +3,7 @@
 ## 👨‍💻 About Me
 - 🎓 I'm currently studying **Computer Science**.
 - 🛠️ Passionate about building home servers, operating containerized services.
-- 🌱 Currently deepening my knowledge in [e.g., Cloud-native architectures, DevOps practices].
+- 🌱 Currently deepening my knowledge in machine learning and computer networking.
 
 ## 🛠️ Tech Stack
 
