@@ -68,7 +68,7 @@ From self-hosted home servers to AWS Terraform IaC, automated CI/CD pipelines, a
 
 </details>
 
-# 안녕하세요, 조용현(Yonghyun Cho)입니다 👋
+# 안녕하세요, 조용현입니다 👋
 
 **인프라·클라우드·네트워크와 컨테이너 기반 서비스 운영**에 깊은 관심을 가진 컴퓨터공학 전공 개발자입니다.  
 개인 홈서버 운영부터 AWS Terraform IaC, CI/CD 자동화, 백엔드 API 개발까지 **서비스가 안정적으로 설계되고 배포·운영되는 전체 흐름**을 직접 구축하는 것을 즐깁니다.
