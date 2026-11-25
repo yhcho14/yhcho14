@@ -1,7 +1,72 @@
-<div align="right">
-  <a href="https://github.com/yhcho14"><img src="https://img.shields.io/badge/Language-한국어-1F2937?style=flat-square" alt="한국어" /></a>
-  <a href="https://github.com/yhcho14/yhcho14/blob/main/README.en.md"><img src="https://img.shields.io/badge/English-Switch-2563EB?style=flat-square" alt="English" /></a>
-</div>
+<details>
+<summary><b>🌐 English Version</b> <i>(Click to expand)</i></summary>
+
+<br />
+
+# Hi there, I'm Yonghyun Cho 👋
+
+I'm a **Computer Science** student focused on **infrastructure, cloud architecture, computer networking, and containerized service operations**.  
+From self-hosted home servers to AWS Terraform IaC, automated CI/CD pipelines, and Spring Boot backends, I enjoy building and operating the complete path from code to production.
+
+---
+
+## 👨‍💻 About Me
+
+- 🎓 Currently studying **Computer Science**, deepening my knowledge in **Computer Networking** and **Machine Learning**.
+- 🖥️ **Home Lab & Self-Hosting**: Passionate about building Ubuntu/Docker home servers, managing private mesh networks with Tailscale, and operating self-hosted containerized services.
+- ☁️ **Infrastructure & DevOps**: Hands-on experience designing AWS infrastructure with Terraform, building CI/CD workflows (GitHub Actions, Self-hosted Runners, Jenkins), and automating containerized deployments.
+- ⚙️ **Backend & Full-Stack**: Experienced in delivering Spring Boot APIs and TypeScript/Next.js integrations alongside production deployment and troubleshooting.
+
+---
+
+## 🚀 Featured Projects
+
+> ℹ️ Live deployments for all projects below are currently **offline (decommissioned after project completion)** and no longer publicly accessible. Full source code and infrastructure configurations are available in the linked GitHub repositories.
+
+### 1. MixChat — Real-Time AI Translation Chat & Community
+> **2025.11 – 2025.12** · Programmers AI·BE DevCourse Final Project · *(Live service offline)*  
+> 🔗 [Backend Repo](https://github.com/prgrms-aibe-devcourse/AIBE3_final_project_team3_BE) · [Frontend Repo](https://github.com/prgrms-aibe-devcourse/AIBE3_final_project_team3_FE) · [Terraform Guide](https://github.com/prgrms-aibe-devcourse/AIBE3_final_project_team3_BE/blob/main/docs/terraform.md) · [Terraform IaC](https://github.com/prgrms-aibe-devcourse/AIBE3_final_project_team3_BE/blob/main/infra/main.tf)
+
+- **AWS Infrastructure as Code (Terraform)**: Provisioned VPC (`10.0.0.0/16`), public/private subnets, Internet Gateway, route tables, security groups, IAM/SSM roles, Amazon Linux 2023 EC2 instances bootstrapped via `base64gzip` user-data, MySQL 8.0 RDS, and separated Prod/Staging S3 buckets.
+- **CI/CD & Environment Operations**: Built GitHub Actions CI/CD pipelines (GHCR, Self-hosted Runner, Docker Compose auto-deploy), configured Nginx Proxy Manager reverse proxy, and managed `dev` / `release` / `main` release workflows.
+- **Full-Stack Community Domain**: Implemented the Post/Comment/Like/S3-image backend (Spring Boot 3 / JPA) and Next.js board frontend, resolving production CORS and build issues.
+
+**Stack:** `Terraform` `AWS (EC2, RDS, S3, VPC, IAM)` `Docker Compose` `GitHub Actions` `Nginx Proxy Manager` `Java 21` `Spring Boot` `MySQL` `Redis` `Next.js`
+
+---
+
+### 2. WorkBuddy — Freelancer & Client Matching Platform
+> **2025.10** · Programmers AI·BE DevCourse Team Project (Top Committer) · *(Live service offline)*  
+> 🔗 [Repository](https://github.com/prgrms-aibe-devcourse/AIBE3-TEAM2-BeanBuddies-MatchingPlatform) · [Jenkinsfile](https://github.com/prgrms-aibe-devcourse/AIBE3-TEAM2-BeanBuddies-MatchingPlatform/blob/main/Jenkinsfile)
+
+- **End-to-End Jenkins & Docker CI/CD (80% faster deployment)**: Built automated build, Docker Hub push, and SSH container deployment pipelines for both Backend (Spring Boot) and Frontend (React/Vite).
+- **Self-Hosted Production Operations**: Hosted the team's live service and API on personal home-server infrastructure with a custom domain, resolving production OAuth2 (Kakao/Naver/Google), Spring Security, CORS, Redis, and SMTP issues.
+- **Full-Stack MyPage & Favorites**: Built profile management, visibility scopes, skill/career editing, project/freelancer favorites, and application tracking APIs with frontend integration.
+
+**Stack:** `Jenkins` `Docker` `Ubuntu` `Reverse Proxy` `Java 21` `Spring Boot` `Spring Security` `MySQL` `Redis` `React` `TypeScript` `Vite`
+
+---
+
+### 3. AI Travel Planner — Travel Recommendation & Itinerary Platform
+> **2025.07** · Programmers AI·BE DevCourse 1st Project · *(Live service offline)*  
+> 🔗 [Repository](https://github.com/prgrms-aibe-devcourse/AIBE3-Project1-Team03)
+
+- **Deployment, Security & API Proxy**: Owned Vercel production deployment, implemented external public-data API proxy routes with CORS handling, resolved production build issues, and configured Supabase Row Level Security (RLS) error handling.
+- **MyPage Travel Planner**: Built travel plan & detailed itinerary CRUD workflows and actively reviewed/merged team PRs.
+
+**Stack:** `Next.js` `TypeScript` `Supabase (PostgreSQL, RLS)` `Tailwind CSS` `Vercel`
+
+---
+
+## 🖥️ Home Lab & Self-Hosting
+
+- **Containerized Services**: Operate personal Ubuntu Linux home server workloads with Docker / Docker Compose, running self-hosted services and monitoring dashboards in a private environment.
+- **Zero-Trust Private Networking**: Use Tailscale mesh VPN and reverse proxy (Nginx Proxy Manager) for secure remote administration and minimal public attack surface.
+- **Hands-On DevOps Sandbox**: Run self-hosted GitHub Actions runners, Jenkins agents, and staging/production environments for real-world team projects.
+
+---
+
+</details>
 
 # 안녕하세요, 조용현(Yonghyun Cho)입니다 👋
 
